@@ -1,0 +1,30 @@
+# Исполняемые файлы и бинарники (сгенерированные при компиляции)
+main
+try
+
+# Папка сборки CMake (обычно называется build/ или cmake-build-*/)
+build/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+*.cmake
+Makefile
+
+# Объектные файлы компилятора
+*.o
+*.obj
+
+# Логи и временные файы
+*.log
+*.tmp
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Среда разработки (IDE)
+.vscode/
+.idea/
+*.swp
+*.swo
